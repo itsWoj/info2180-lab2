@@ -1,0 +1,161 @@
+body{
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+
+.top {
+    background-color:#63B3ED;
+    color: #ffffff;
+    text-align: center;
+    grid-column: 1 / -1; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 { 
+    font-size: 32px;
+    color: #48BB78;
+}
+
+article .date {
+    color: #718096;
+}
+
+h3{
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman',Times, serif;
+}
+
+.about-head {
+    color: #000000; 
+}
+
+.foot{
+    background-color: #E2E8F0;
+    padding: 10px;
+}
+
+main {
+    grid-column: 3 / 7; 
+    padding-right: 50px;
+}
+
+aside {
+    padding: 20px;
+    background-color: #ffffff;
+    grid-column: 7 / 9; 
+}
+
+footer {
+    grid-column: 1 / 11; 
+}
+
+
+
+img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 15px;
+    width: 200px; 
+    height: 200px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article img {
+    border-radius: 0;
+}
+
+article h2 {
+    text-align: left;
+}
+
+
+.content {
+    justify-content: space-between;
+    padding: 20%;
+    padding-top: 30px;
+}
+
+
+article {
+    margin-bottom: 30px;
+    padding-bottom: 20px; 
+    border-bottom: 2px solid #4299E1; 
+}
+
+
+.social-media {
+    list-style-type: none; 
+}
+
+.social-media li {
+    margin: 5px 0; 
+}
+
+a {
+    text-decoration: none; 
+    color: #4299E1;
+    font-weight: bold; 
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.social-media{
+    padding-bottom: 100px;
+}
+
+.Archives {
+    list-style-type: none; 
+}
+
+.Archives li {
+    margin: 5px 0; 
+}
+
+.Archives a:hover {
+    text-decoration: underline;
+}
+
+.Archives{
+    padding-bottom: 100px;
+}
+
+
+footer {
+    background-color: #2C5282;
+    color: #ffffff;
+}
+
